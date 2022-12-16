@@ -13,7 +13,7 @@ const parsedData = pathRows.map(pathRow => {
     return paths;
 })
 
-console.log(parsedData);
+// console.log(parsedData);
 
 const sandEntryCoordinate = {
     distanceFromTop: 0,

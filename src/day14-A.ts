@@ -123,8 +123,6 @@ const simulateSandFalling = (data: DataGrid) => {
 
 while(keepRunningSimulation) {
     simulateSandFalling(dataGrid);
-
-    console.log(dataGrid.map(row => row.join('')).join('\n'))
 }
 
 console.log(dataGrid.map(row => row.join('')).join('\n'))
