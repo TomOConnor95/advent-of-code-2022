@@ -1,0 +1,73 @@
+The first 15 rocks aren\t in the loop, and this has a height of 25
+
+The Loop takes 35 rocks, and has height 53
+
+(1000000000000 - 15) / 35 = 28,571,428,571.0
+
+therefore the total height is height of 15 (25) + height of all the loops_
+
+25 + (28,571,428,571 * 53) = 1,514,285,714,288
+
+Which is the correct answer
+
+Therfore for the real data need to find how long the loop is.
+No loop in 2022 rocks
+IN the test data the length of wind is 40, but length of loop is 35,
+which is a nearby multiple of 5, so maybe it's the same
+
+the real data has 10091 peices of data
+10091 / 7 = 1,441.5714285714
+1441 * 7 = 10087 
+which is 10091 - 4
+
+
+so will see if there is a loop within 11000
+
+
+number of lines = 17159
+Loop is from 16155 to 13502
+
+length 2654 (repeats every 2654)
+
+repeate 
+2886 - 2653 = 2654
+
+
+number of lines before loop = 17158 - 16155 = 1004
+---
+cleaner one at 16142 - 13488 = 2654
+
+
+number of lines before loop = 17158 - 16142 = 1016
+number of rocks for this: 665
+
+number of lines past the ed of the loop: 218 - 3 = 215 
+number of rocks pas end of loop: 27*5 = 135
+
+
+number of loops = 6
+
+lines in loop: 2654
+
+number of rocks in all loops = 11000 - 135 - 665 = 10200
+10200/6 = 1700
+therefore 1700 rocks per loop
+------
+height for 1000000000000 rocks:
+
+number of loops from loop point onwards:
+(1000000000000 - 665 )/ 1700 = 588,235,293.7264
+round down to 588,235,293
+
+number of rocks after final loop point = (1000000000000 - 665 ) % 1700 = 1235
+
+to find height of 1235 rocks after loop point simulate 1235 rocks + 665 =1900
+ => 2947
+then subtract height before loop:
+2947 - 1016 = 1931
+
+
+total height = 1016 + 588,235,293 * 2654 + 1931
+             = 1,561,176,470,569
+             1561176470569
+    Correct!!!
